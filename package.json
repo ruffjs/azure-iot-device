@@ -1,6 +1,6 @@
 {
   "name": "azure-iot-device",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Azure IoT device SDK (v1.1.7) ported for Ruff",
   "author": [
       "Microsoft Corporation",
@@ -22,10 +22,7 @@
   "ruff": {
     "dependencies": {
       "azure-iot-common": "0.1.1",
-      "lodash.at": "npm:^4.6.0",
-      "lodash.merge": "npm:^4.6.0",
-      "traverse": "npm:^0.6.6",
-      "machina": "npm:^2.0.0"
+      "lodash": "npm:^3.0.1"
     }
   }
 }
